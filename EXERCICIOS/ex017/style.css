@@ -1,0 +1,32 @@
+@charset "pt-br";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+
+/*@font-face{
+    src: url(nome do arquivo da fonte) format();
+}*/
+
+body{
+    font-family: "Rubik Pixels", system-ui;
+    /* 
+        Medidas Absolutas
+            cm, mm, in (polegada), px, pt, pc
+        Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+        16px geralmente = 1em
+    */
+    font-size: 1em;
+    font-weight: 900;
+   
+   
+    /*lighter, normal, bold, bolder*/
+}
+
+h1{
+    font: bold 3em 'Hevetica', sans-serif;
+
+    /*Shorthand font
+        -fonte-style -> fonte-wight -> font-size -> fonte-family    
+    */
+}
